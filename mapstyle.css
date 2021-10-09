@@ -1,0 +1,80 @@
+.container{
+    background-color: floralwhite;
+    min-height: 30rem;
+    padding:0.1rem;
+    display:flex;
+}
+#mapContainer{
+    background-color: darkred;
+    margin:0.5rem;
+    border:solid 0.1rem;
+    border-color: coral;
+    flex:2;
+}
+            
+#ratContainer{
+    background-color:gainsboro;
+    margin:0.5rem;
+    border: solid 0.1rem;
+    max-height: 30rem;
+    border-color: coral;
+    overflow: auto scroll;
+    flex:1
+}
+
+.title {
+    text-align: center;
+    color:indianred;
+    background-color: rgb(211, 211, 211);
+}
+
+.popList {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+.ratingList {
+    list-style-type: none;
+}
+
+.popButton{
+    color:indianred;
+    background-color:floralwhite; 
+    margin: 0.5rem auto;
+    display: block;
+}
+
+.star{
+    color:rgb(238, 133, 133);
+    font-size: 50px;
+    cursor:  pointer;
+}
+
+.star.rated {
+    color:rgb(83, 4, 4);
+}
+
+.createdRating{
+   background-color:floralwhite;
+    margin:0.3rem;
+}
+
+.createdRating:focus{
+    border: solid 3px;
+    border-color: coral;
+    
+}
+
+.removeRatingButton {
+    cursor:pointer;
+    font-size:1rem;
+    color:indianred;
+    background-color:floralwhite; 
+    margin-top:0.5rem;
+    margin-left:1rem;
+    margin-bottom:0.2rem;
+}
+
+
+
